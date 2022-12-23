@@ -103,6 +103,18 @@ export default {
       options: TRADE_MARGIN_MODES,
       optional: false,
     },
+    takerProfitPrice: {
+      label: "Take Profit Price",
+      description: "Take Profit Price",
+      type: "string",
+      optional: false,
+    },  
+    stopLossPrice: {
+      label: "Stop Loss Price",
+      description: "Stop Loss Price",
+      type: "string",
+      optional: false,
+    },       
   },
   methods: {
     _apiUrl() {
